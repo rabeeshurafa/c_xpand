@@ -1,0 +1,123 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Authentication Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used during authentication for various
+    | messages that we need to display to the user. You are free to modify
+    | these language lines according to your application's requirements.
+    |
+    */
+    'export_to'   =>  'Sent To ',
+    'import_from'   =>  'Received From ',
+    'out_archive'   =>  'Outbox Archive ',
+    'in_archive'   =>  'Inbox Archive ',
+    'date_send'   =>  'Date of Sent',
+    'date_recivd'   =>  'Received Date',
+    'num_send'   =>  'Number',
+    'title_send'   =>  'Subject',
+    'copy_to'   =>  'Copy To ',
+    'sending_out'   =>  'Sending List',
+    'sending_in'   =>  'Received List',
+    'search_result'   =>  'Search Result ',
+    'date'   =>  'Date  ',
+    'title'   =>  'Title  ',
+    'num'   =>  'Number  ',
+    'proj_name'   =>  'Project Name',
+    'proj_archive'   =>  'Porject Archive ',
+    'proj_archive_lst'   =>  'Porject Archive List',
+    'mun_archive'   =>  'Organization Archive',
+    'mun_archive_lst'   =>  'Organization Archive List',
+    'emp_archive'   =>  'Employee Archive ',
+    'emp_archive_lst'   =>  'Employee Archive List',
+    'dep_archive'   =>  'Contract & Agreement Archive ',
+    'dep_archive_lst'   =>  'Contract & Agreement Archive List',
+    'assets_archive'   =>  'Assets Archive ',
+    'assets_archive_lst'   =>  'Assets Archive List',
+    'cit_archive'   =>  'Citizen Archive ',
+    'name_archive'   =>  'Name Of Archive ',
+    'name_emp'   =>  'Employee Name',
+    'name_assets'   =>  'Assets Name',
+    'name_cit'   =>  'Name Of Citizen ',
+    'name_dep'   =>  'Name Of Department ',
+    'lic_archive'   =>  'Licence Of Archive ',
+    'licFile_archive'   =>  'File Licence Of Archive ',
+    'lic_num'   =>  'Number Of License',
+    'subs'   =>  'Subscriber ',
+    'lic_type'   =>  'License Type ',
+    'build_type'   =>  'Building Type ',
+    'attach'   =>  'Attachment ',
+    'licfile_num'   =>  'Number Of License File',
+
+    'jobLic_archive'   =>  'Archive Of Job License ',
+    'agenda_archieve'   =>  'Archive Of Meeting ',
+    'agenda_report'   =>  'Report Archive Meeting',
+
+    'jobLic_report'   =>  'Report Of Job License',
+    'reports'   =>  'Reports ',
+    'report_archive'   =>  'Report Of Archives ',
+    'title_name'   =>  'Title  ',
+    //////////////////أرشيف الجلسات///////////////
+    "meeting_name" => 'Meeting Name',
+    "meeting_number" => 'Meeting Number',
+    "meeting_date" => 'Meeting Date',
+    "topic" => 'Topic',
+    "commitment_to" => 'Connected With',
+    "decision" => 'Decision',
+    "enter_subject" => 'Enter The Subject Text',
+    "enter_subject_here" => 'Enter The Subject Here',
+    "recipient" => 'Recipient',
+    "topic_search" => 'Topic Search',
+    "end_meeting" => 'End the Meeting',
+    "report_type" => 'Report Type',
+    /////////////////////////////////////////////
+    //////////////////////////ارشيف رخص البناء////
+    "building_permit_archive" => 'Building Permit Archive',
+    "file_owner" => 'File Owner',
+    "License_file_archive" => 'License File Archive',
+    "license_holder" => 'License Holder Name',
+    "license_attachments" => 'License Attachments',
+    "license_file_attachments" => 'License File Attachments',
+    "pelvis_number" => 'Pelvis Number',
+    "piece_number" => 'Piece Number',
+    "attachment_type" => 'Attachment Type',
+    "license_type" => 'License Type',
+    ////////////////////////////////////////////
+    ///////////////////تقرير الإرشيف//////////////
+    "archive_type" => 'Archive Type',
+    "from_date" => 'From Date',
+    "to_date" => 'To Date',
+    "type" => 'Type',
+    ///////////////////////////////////////////
+    "show"=>'Show',
+    "input"=>'Rows',
+    "to"=>'To',
+    "out_of"=>'Out Of',
+    "previous"=>'Previous',
+    "next"=>'Next',
+    "document_type"=> 'Document Type',
+    'law_archive'=>'Laws And Procedures Archive',
+    'archive_No'=>'Archive Number',
+    'created_by'=>'Created By',
+    'copy_view'=>'Copy To View',
+    'documents'=>'Other Documents',
+    'original_document_linked'=>'Original Document Linked To',
+    'archive_type'=>'Archive Type',
+    'search'=>'Search',
+    'month'=>'Month',
+    'year'=>'Year',
+    'day'=>'Day',
+    'out_box'=>'Outbox',
+    'in_box'=>'Inbox',
+    'meeting_archive'=>'Meeting Archive',
+    'finance_achive'=>'Financial Archive',
+    'finance_achive_lst'=>'Financial Archive List',
+    'deal_type'=>'Deal Type',
+    'supp_name'=>'Beneficiary Name',
+    'task_archive'=>'Tasks Archive',
+    'law_archieve'=>'Law Archive',
+];

@@ -1,0 +1,13 @@
+@media screen and (max-width: 600px) {
+  .m-grid-item--center{
+        display:none !important;
+    }
+    
+    .form-control{
+        font-size: 1.5rem;
+    }
+    
+    .form-control{
+        margin-bottom:15px;
+    }
+}

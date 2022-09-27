@@ -1,0 +1,50 @@
+[1mdiff --cc app/Http/Controllers/Dashboard/ArchieveController.php[m
+[1mindex 74a99f3,a16a6be..0000000[m
+[1m--- a/app/Http/Controllers/Dashboard/ArchieveController.php[m
+[1m+++ b/app/Http/Controllers/Dashboard/ArchieveController.php[m
+[36m@@@ -376,23 -433,10 +433,28 @@@[m [mclass ArchieveController extends Contro[m
+        public function archieve_info_all(Request $request)[m
+      {[m
+          $type=$request['type'];[m
+[32m++<<<<<<< HEAD[m
+[32m +        $archive= Archive::select('archives.*')->where('type',$type)->orderBy('id', 'DESC')->with('copyTo')->with('files')->get();[m
+[32m +        [m
+[32m++=======[m
+[32m+         $archive= Archive::select('archives.*')->where('type',$type)->orderBy('id', 'DESC')[m
+[32m+         ->with('files')->get();[m
+[32m++>>>>>>> ebe2678cd67f797a86940e8959e0c547a530f6af[m
+          return DataTables::of($archive)[m
+                          ->addIndexColumn()[m
+[32m +                        ->addColumn('copyTo', function($archive) {[m
+[32m +                            if($archive->copyTo){ [m
+[32m +                                $actionBtn=" ";[m
+[32m +                                foreach ($archive->copyTo as $copyTo){ [m
+[32m +                                    $actionBtn .=' '.$copyTo->name.' ';[m
+[32m +                                }[m
+[32m +                               [m
+[32m +                                return $actionBtn;[m
+[32m +                            }[m
+[32m +                            else[m
+[32m +                              { return '';}[m
+[32m +                            [m
+[32m +                        })[m
+                          ->make(true);[m
+  [m
+      }[m
+[1mdiff --cc app/Http/Controllers/Dashboard/SubscriberController.php[m
+[1mindex 47bd1a0,de36b00..0000000[m
+[1m--- a/app/Http/Controllers/Dashboard/SubscriberController.php[m
+[1m+++ b/app/Http/Controllers/Dashboard/SubscriberController.php[m
+[36m@@@ -152,9 -152,6 +152,12 @@@[m [mclass SubscriberController extends Cont[m
+              $user['address'] = Address::where('id', $user['info']['addresse_id'])->first();[m
+          }[m
+          $user['ArchiveCount'] = $ArchiveCount + $CopyToCount +$ArchiveLicCount+$jalArchiveCount;[m
+[32m++<<<<<<< HEAD[m
+[32m +        // $user['job_title'] = JobTitle::where('id',$user['info']->job_title_id)->first()->name;[m
+[32m +        // $user['group'] = Group::where('id',$user['info']->group_id)->first()->name;[m
+[32m +        // $user['address'] = Address::where('id', $user['info']['addresse_id'])->first();[m
+[32m++=======[m
+[32m++>>>>>>> ebe2678cd67f797a86940e8959e0c547a530f6af[m
+          if($user['address']->city_id){[m
+              $user['city'] =City::where('id',$user['address']->city_id)->first()->name;[m
+          }[m

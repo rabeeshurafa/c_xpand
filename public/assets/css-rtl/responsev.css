@@ -1,0 +1,416 @@
+
+  .modal-header{
+
+      background-color: #0073AA;
+
+  }
+
+  .modal-title{
+
+      color:#ffffff;
+
+  }
+
+  .hide{
+
+      display:none;
+
+  }
+  .inputD
+    {
+        width:97%!important;
+    }
+    .input-group{
+        width: 91% !important;
+    }
+    .des-p-l22{
+        padding-left: 22px;
+    }
+    .hidedesc{
+        display:none;
+    }
+    .notseen{
+        background-color: #DCF8C6!important;
+    }
+    #tag_pic{
+        display:none;
+    }
+    ol li::marker{
+        color:#1E9FF2
+    }
+    .addressmob{
+        width:95%!important;
+    }
+    .subscribermob{
+        width:95%!important;
+    }
+    .pl7mob{
+        width:100%;
+    }
+    .entermob{
+        max-width: 40%!important;
+    }
+    .addressinputmob{
+        width:97%!important;
+    }
+    .piceDiv {
+            padding-left:10px;;
+        }
+    .widthsub{
+        width:96%!important;
+    }
+    .widthmail{
+        width:93%!important;
+    }
+    .widthRegion{
+        width:100%!important;
+    }
+    .formnoleft{
+        padding-left: 0!important;
+    }
+   @media (max-width: 767.98px){
+      #tag_pic{
+        display:inline-block;
+    }
+      .hidedesc{
+        display:inline-block;
+    }
+    .piceDiv {
+            padding-left: 15px;
+        }
+    .w-iconmob{
+        width:50%;
+    }
+    
+    .rightSide{
+        height:300px!important;
+        max-height:330px!important;
+        min-height:310px!important;
+    }
+    .btnArea{
+        margin-top:25px!important;
+    }
+      .des-p-l22{
+        padding-left: 14px!important;
+    }
+    .dropdown-item{
+        font-size: 14pt!important;
+    }
+    .w-76-mob{
+        width:50%!important;
+    }
+    .dropmob{
+        display:inline;
+        margin-bottom:15px;
+        margin-top: 62px;
+        margin-right:20px;
+    }
+    .searchmob{
+        max-width:276px!important;
+        width:255px;
+        display:inline;
+        margin-right:3%!important;
+    }
+    .linkmailmob{
+        padding: 0.8rem 0.25rem!important;
+    }
+    .menumob1{
+        width:300px!important;
+        right: auto!important;
+    }
+    
+    .prependmob{
+        width:22%!important;
+    }
+    .prependmob1{
+        width:26%!important;
+    }
+    #cke_15{
+        display:none;
+    }
+    #cke_17{
+        display:none;
+    }
+    #cke_20{
+        display:none;
+    }
+    #cke_46{
+        display:none;
+    }
+    #cke_53{
+        display:none;
+    }
+    #cke_52{
+        display:none;
+    }
+    #cke_50{
+        display:inline;
+    }
+    #cke_49{
+        display:inline;
+    }
+    .email-app-options{
+        padding: 23px 0px 23px 0;
+    }
+    .messagemob{
+        margin-top: 20px;
+    }
+    #cke_28{
+        display:inline;
+    }
+    #cke_32{
+        display:none;
+    }
+    #cke_33{
+        display:none;
+    }
+    #cke_13{
+        display:none;
+    }
+    #cke_31{
+        display:none;
+    }
+    #cke_14{
+        display:none;
+    }
+    #cke_34{
+        display:none;
+    }
+    .docmob{
+        width:96%!important;
+    }
+    .menumob{
+        width:300px!important;
+        right: auto!important;
+        top:auto!important;
+    }
+    .posmob{
+        margin-right: 15px!important;
+    }
+    .infoAvataronmob{
+        width:100%!important;
+    }
+    .imagemob{
+        width:12%;
+    }
+    .Avataronmob{
+            padding-right: 40px!important;
+            width: 87%!important;
+            margin-top: 10px;
+    }
+    .avatar-onlineonmob{
+        height:50px!important;
+    }
+    .pl15-mob{
+        padding-left:15px!important;
+    }
+    .mr-15mob{
+        margin-right: 15px;
+    }
+    .poselecmob{
+        width: 30%;
+    }
+    .poselecmob{
+        width: 30%;
+    }
+    
+    .navmob{
+        height: 140px!important;
+    }
+    .navhmob{
+            margin-bottom: 40px;
+    }
+    .messagelist{
+        overflow: scroll;
+        max-width:350px;
+    }
+    .appmainmob{
+        margin-top: 72px;
+    }
+    .SubPage{
+        margin-top:0;
+    }
+    .contentonmob{
+        padding:.7rem!important;
+    }
+    .tablescroll{
+        overflow: scroll;
+        max-width:350px;
+        padding-right:0!important;
+    }
+    .w-100{
+        width:100px!important;
+    }
+    .fontMob{
+    font-size: 14pt;
+    padding-bottom:10px;
+      }
+      .paddzeromob{
+        padding-right:10px!important;
+        padding-left:17px!important;
+
+      }
+      
+      .infoAvatar{
+          padding-right:0px!important;
+      }
+      .hidemob{
+          display:none;
+      }
+      .olmob{
+          padding-right:10px!important;
+      }
+    .paddmob{
+        margin-bottom:10px!important;
+        margin-right:7px;
+    }
+    .paddformmob{
+        margin-bottom:10px!important;
+        margin-right:15px;
+    }
+    .select2-container{
+        width:78%!important;
+    }
+    .entermob{
+        max-width:100%!important;
+        
+    }
+    .textmob{
+        height: 60px;
+    }
+    .w-80mob{
+        width:82%!important;
+    }
+    .attmob{
+        width:70%!important;
+    }
+    .attdocmob{
+        width:10%!important;
+        padding-left: 30px;
+    }
+    .attdocmob1{
+        width:10%!important;
+    }
+    .feestextmob{
+        width:70%!important;
+        padding-left:3px;
+    }
+    .feesnummob{
+        width:30%!important;
+        padding-right:3px;
+    }
+    .feestotalmob{
+        width:30%!important;
+        padding:0;
+        
+    }
+    .feestotalnummob{
+        width:70%!important;
+        padding-right:0;
+    }
+    .mailmobheader{
+        margin-right:0!important;
+        margin-left:0!important;
+        padding-right:0!important;
+        padding-left:0!important;
+    }
+    .empimgmob{
+        max-height:52px!important;
+    }
+    .attdelmob{
+        width:10%!important;
+    }
+    .app_status{
+        font-size:10pt!important;
+    }
+    .onmobile{
+        padding-right:0px!important;
+        padding-left:0px!important;
+
+    }
+    .searchmailmob{
+            margin-top: 62px!important;
+    }
+    .color-mob{
+        color: #acb0b4
+    }
+    .leftSide{
+            padding-right: 20px!important;
+            padding-left: 20px!important;
+    }
+    .pl7mob{
+        padding-left: 7px;
+        width: 110%;
+    }
+    .status{
+            width: 94%!important;
+    }
+    .taginfomob{
+        width:40%!important;
+        
+    }
+    .exonmobile{
+        width:98%!important;
+    }
+    .input-group{
+        width:98%!important;
+    }
+    .inputD
+    {
+        width:93%!important;
+    }
+  }
+
+  .lds-dual-ring {
+
+display: inline-block;
+
+width: 80px;
+
+height: 80px;
+
+}
+
+.lds-dual-ring:after {
+
+content: " ";
+
+display: block;
+
+width: 64px;
+
+height: 64px;
+
+margin: 8px;
+
+border-radius: 50%;
+
+border: 6px solid #fff;
+
+border-color: #0084FF transparent #0084FF transparent;
+
+animation: lds-dual-ring 1.2s linear infinite;
+
+}
+
+@keyframes lds-dual-ring {
+
+0% {
+
+  transform: rotate(0deg);
+
+}
+
+100% {
+
+  transform: rotate(360deg);
+
+}
+
+}
+
+th{
+
+  background-color:#0073AA; 
+
+}
